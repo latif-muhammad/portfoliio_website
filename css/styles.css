@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    font-weight: 400;
+    background-color: var(--dark-mode);
+    letter-spacing: 1.6px !important;
+    line-height: 1.5;
+    color: white;
+}
+
+/* Global Classes */
+:root {
+    --light-mode: #edf1f5;
+    --dark-mode: #100E17;
+    --primary: #03b97d;
+    --primary-darken: #029c66;
+    --primary-back: #1E1E24;
+    --spare: #ff6900;
+}
+
+a:hover {
+    color: var(--primary) !important;
+}
+
+.primary {
+    color: white;
+    background-color: var(--primary) !important;
+}
+
+.primary:hover {
+    background-color: var(--primary-darken) !important;
+}
+
+.primary-back {
+    background-color: var(--primary-back) !important;
+}
+
+/* .custom-shadow {
+    box-shadow: -0.2rem 0.3rem 0.7rem rgba(202, 180, 180, 0.08) !important; */
+/* } */
+.dark-mode-sec{
+    background-color: var(--primary-back);
+}
+
+.section-margin {
+    margin-bottom: 6.3rem !important;
+}
+
+.card-padding {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.custom-sub-title {
+    font-weight: 500;
+    font-size: 1.05rem;
+}
+
+hr {
+    background-color: var(--primary);
+    height: 0.1rem;
+    border: 0;
+    text-decoration: none;
+}
+
+.transtion {
+    -webkit-transition: all 0.7s ease-out;
+    -moz-transition: all 0.7s ease-out;
+    -o-transition: all 0.7s ease-out;
+    -ms-transition: all 0.7s ease-out;
+    transition: all 0.7s ease-out;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* End of Global classes*/
+
+.nav-item-cus {
+    font-weight: bold;
+    font-size: 1.04rem;
+}
+
+.nav-item-cus:hover {
+    color: var(--primary) !important;
+}
+
+header {
+    background: url(../images/hero-bg.jpg) center center fixed;
+}
+
+
+/* About me  starts*/
+.skill-prog {
+    height: 0.4rem;
+    width: 100%;
+}
+
+.skill-prog-fill {
+    background-color: var(--primary);
+}
+
+.skill-prog-title {
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+/* .prog-title */
+/* About me  ends*/
+
+/* Projects */
+.test {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+}
+
+.my-card {
+    max-width: auto;
+    background-color: var(--primary-back);
+    border: 2px solid var(--primary-back);
+}
+
+.my-card:hover {
+    box-shadow: -0.3rem 0.5rem 0.6rem rgba(202, 180, 180, 0.08) !important;
+    opacity: 0.2;
+}
+
+.my-card:hover hr {
+    display: none;
+}
+
+.my-card:hover .card-body {
+    display: block!important;    
+    transition: all 0.7s ease-out!important;
+
+}
+/* .my-card:hover .card-body {
+    display: none !important;
+} */
+.my-card:hover .details {
+     transform : translateX(0px) translateY(0) translateZ(0) rotate(0deg) scale(1);
+    display: block !important;
+}
+/* porfolio me  ends*/
+/* timeline me  starts*/
+#timeline .seperator{
+    position: absolute;
+    height: 85%;
+    z-index: 3;
+    width: 100%;
+    
+}
+#timeline .timeline-details .dot{
+    height: 1.2rem;
+    width: 1.2rem;
+    border-radius: 50%;
+    background-color: var(--primary)!important;
+    z-index: 10;
+}
+/* Contact Section */
+.social-btn{
+    width: 3.4rem;
+    height: 3.4rem;
+    border-radius: 30%;
+    border: 2px solid var(--primary);
+    background-color: transparent;
+  }
+.social-btn:hover{
+    background-color: var(--primary);
+    border: 2px solid var(--primary);
+
+  }  
+.social-btn .icon{
+    font-size: 1.5rem;
+    vertical-align: bottom;
+    color: var(--light-mode);
+}

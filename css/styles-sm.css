@@ -1,0 +1,33 @@
+/*media query*/
+
+@media (max-width: 1200px) {  
+
+}
+@media (max-width: 992px) { 
+	
+ }
+
+/* Tabs */
+@media (max-width: 768px) {	
+	
+}	
+/* Mobiles */
+@media (max-width: 576px) { 
+	#about-img{
+		display: none;
+	}
+	.section-margin {
+		margin-bottom: 4rem !important;
+	}
+
+	/* timeline */
+	#timeline .timeline-details{
+		padding-left: 4rem!important;
+	}
+
+	#timeline .timeline-details .dot{
+		left: 0.92rem!important;
+	}
+
+}
+/*media query*/
