@@ -19,7 +19,7 @@ Welcome to my portfolio website! This website showcases my skills, projects, and
 ## Author
 
 - Your Name
-- GitHub: [Your GitHub Profile](https://github.com/latif-muhammad)
+- GitHub: [GitHub Profile](https://github.com/latif-muhammad)
 - Portfolio Website: [Your Portfolio Website](https://latif-muhammad.me)
 
 #ps: It's not live yet, Need to add things
